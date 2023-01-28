@@ -1,0 +1,230 @@
+@import "./reset.css";
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
+}
+main {
+  background: #121214;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.second-section-title {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+a:active {
+  position: relative;
+  top: 1px;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+header {
+  background: #121214;
+  .menu {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #a6a8ad;
+    .left {
+      display: flex;
+      column-gap: 50px;
+      align-items: center;
+    }
+    .menu-list {
+      display: flex;
+      column-gap: 20px;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      .login {
+        line-height: 20px;
+      }
+      .sign-up {
+        padding: 8px 21px;
+        background: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 32px;
+        color: #121214;
+      }
+      .login:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+  .line {
+    background-color: #0033ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    .underline {
+      padding: 11px 0;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+}
+
+.first-section {
+  background-image: url("../img/header/IMAGE\ \(2\).png");
+  .first-title {
+    padding-top: 140px;
+    margin-bottom: 26px;
+    max-width: 500px;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 1.08px;
+    color: #ffffff;
+  }
+  .subtitle {
+    line-height: 24px;
+    max-width: 440px;
+    font-size: 20px;
+    margin-bottom: 44px;
+  }
+  .try-free {
+    display: inline-block;
+    padding: 16px 32px;
+    background: #0033ff;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 166px;
+  }
+  .learn-more {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.second-section {
+  padding-bottom: 100px;
+  .block {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .under-title {
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.12px;
+      margin-bottom: 5px;
+      color: #a6a8ad;
+      text-transform: uppercase;
+    }
+    .second-section-paragraph {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 18px;
+    }
+    .second-section-button {
+      padding: 8px 20px;
+      background-color: #0033ff;
+      border-radius: 8px;
+      display: inline-block;
+    }
+  }
+}
+.third-section {
+  padding-bottom: 130px;
+  .humans {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+  .human-block {
+    background-color: #fff;
+    border-radius: 8px;
+    .human-img {
+      text-align: center;
+      padding: 30px 69px;
+    }
+    .human-block-text {
+      max-width: 295px;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 0.3px;
+      color: #000000;
+      padding-left: 32px;
+      padding-bottom: 16px;
+    }
+    .human-name {
+      padding: 0 0 32px 32px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #767676;
+    }
+  }
+}
+.fourth-section {
+  background-image: url("../img/footer/IMAGE\ \(7\).png");
+  .text {
+    text-align: center;
+    .footer-title {
+      padding-top: 283px;
+      margin-bottom: 57px;
+      font-size: 54px;
+      line-height: 60px;
+    }
+    .footer-button {
+      padding: 8px 20px;
+      background: #0033ff;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 24px;
+      display: inline-block;
+      margin-bottom: 288px;
+    }
+  }
+}
+.footer {
+  padding-top: 50px;
+  background: #121214;
+  .footer-menu {
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-around;
+    .list-item {
+      margin-bottom: 12px;
+      font-size: 12px;
+      line-height: 18px;
+      color: #a6a8ad;
+    }
+    .list-title {
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+  .last-footer-menu {
+    display: flex;
+    column-gap:24px;
+    align-items:center;
+    .last-list-item {
+      font-size: 12px;
+      line-height: 18px;
+      color: #a6a8ad;
+    }
+  }
+}
